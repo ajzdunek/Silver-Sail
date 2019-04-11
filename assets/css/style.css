@@ -1,0 +1,46 @@
+  body{
+    background: black;
+  }
+  
+  .contact {
+    font-weight: 100;
+    font-size: 45px;
+    color: white;
+    letter-spacing: 5px;
+    text-align-last: right;
+    position: relative;
+    bottom: 67px;
+  }
+
+
+  .band-name {
+  padding-top: 20px;
+  font-weight: 100;
+  font-size: 45px;
+  color: white;
+  letter-spacing: 5px;
+}
+
+img{
+  height: 550px;
+  width: 100%;
+}
+
+.shows{
+  color: grey;
+  position: relative;
+  top: 190px;
+  font-weight: 300;
+}
+
+#events{
+  padding-top: 10%;
+}
+
+
+footer {
+  color: white;
+  position: relative;
+  top: 100px;
+  padding:20px;
+}
