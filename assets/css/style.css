@@ -26,16 +26,29 @@
 
 
 /* // Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575px){ .contact, .band-name{
+@media (max-width: 575px){.band-name{
   font-size: 30px;
-  padding-top: 20px;
   }
  }
 
 /* // Small devices (landscape phones, 576px and up) */
-@media (max-width: 576px) and (max-width: 767px) { .contact, .band-name{
+@media (max-width: 576px) and (max-width: 767px) {.band-name{
   font-size: 30px;
-  padding-top: 20px;
+  }
+ }
+
+
+ /* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px){.contact{
+  font-size: 30px;
+  padding-top: 18px;
+  }
+ }
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) and (max-width: 767px) {.contact{
+  font-size: 30px;
+  padding-top: 18px;
   }
  }
 
