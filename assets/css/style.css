@@ -41,14 +41,14 @@
  /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575px){.contact{
   font-size: 30px;
-  padding-top: 18px;
+  padding-top: 16px;
   }
  }
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) and (max-width: 767px) {.contact{
   font-size: 30px;
-  padding-top: 18px;
+  padding-top: 16px;
   }
  }
 
