@@ -1,6 +1,22 @@
   body{
     background: black;
   }
+
+
+/* Small devices (phones, tablets less than 48em) */
+@media (max-width: 47.9em) {
+  .band-name, .contact{
+    font-size: 15px;
+  }
+}
+
+/* // Medium devices (tablets, small laptops less than 62em) */
+@media (min-width: 61.9em) {
+  .band-name, .contact{
+    font-size: 20px;
+  }
+ }
+
   
   .contact {
     font-weight: 100;
@@ -9,7 +25,7 @@
     letter-spacing: 5px;
     text-align-last: right;
     position: relative;
-    bottom: 67px;
+    bottom: 62px;
   }
 
 
@@ -21,10 +37,28 @@
   letter-spacing: 5px;
 }
 
+
+
 img{
   height: 550px;
   width: 100%;
 }
+
+/* Small devices (phones, tablets less than 48em) */
+@media (max-width: 47.9em) {
+  img{
+    height: 300px;
+    width: 100%;
+  }
+}
+
+/* // Medium devices (tablets, small laptops less than 62em) */
+@media (min-width: 61.9em) {
+  img{
+    height: 600px;
+    width: 100%;
+  }
+ }
 
 .shows{
   color: grey;
