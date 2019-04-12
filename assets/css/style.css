@@ -2,61 +2,14 @@
     background: black;
   }
 
-
-
-  
-  .contact {
-    font-weight: 100;
-    font-size: 45px;
-    color: white;
-    letter-spacing: 5px;
-    text-align-last: right;
-    position: relative;
-    bottom: 62px;
-  }
-
-
-  .band-name {
-  padding-top: 20px;
-  font-weight: 100;
-  font-size: 45px;
-  color: white;
-  letter-spacing: 5px;
-}
-
-
-/* // Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575px){.band-name{
-  font-size: 30px;
-  }
- }
-
-/* // Small devices (landscape phones, 576px and up) */
-@media (max-width: 576px) and (max-width: 767px) {.band-name{
-  font-size: 30px;
-  }
- }
-
-
- /* // Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575px){.contact{
-  font-size: 30px;
-  padding-top: 16px;
-  }
- }
-
-/* // Small devices (landscape phones, 576px and up) */
-@media (max-width: 576px) and (max-width: 767px) {.contact{
-  font-size: 30px;
-  padding-top: 16px;
-  }
- }
-
-
-
 img{
   height: 600px;
   width: 100%;
+}
+
+.navbar-brand  {
+  font-weight: 100;
+  font-size: 1.9em !important;
 }
 
 /* Small devices (phones, tablets less than 48em) */
