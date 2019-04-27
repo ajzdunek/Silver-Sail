@@ -12,9 +12,7 @@ img{
   font-size: 2.0em !important;
 }
 
-/* .fa-soundcloud{
-  font-size: 35px;
-} */
+
 
 
 /* Small devices (phones, tablets less than 48em) */
@@ -49,6 +47,10 @@ footer {
   position: relative;
   top: 40px;
   padding:20px;
+}
+
+.fa-soundcloud {
+  color: rgb(255, 102, 0);
 }
 
 a:link {color: rgb(255, 255, 255);} 
