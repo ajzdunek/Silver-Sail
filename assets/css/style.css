@@ -39,9 +39,6 @@ img{
   padding-top: 15%;
 }
 
-.bandcamp-music{
-  padding-top: 5%;
-}
 
 footer {
   color: white;
@@ -92,3 +89,56 @@ a {text-decoration: none !important;}
   color: #333333;
   background-color: white;
 }
+
+
+.bandcamp-music{
+  padding-top: 7%;
+}
+
+iframe{
+  position:relative;
+  left: 18.5%;
+}
+
+hr.style-one {
+    border: 0;
+    height: 1px;
+    width: 63.0%;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #ccc, #ccc);
+}
+
+
+
+
+
+
+/* Small devices (phones, tablets less than 48em) */
+@media (max-width: 47.9em) {
+  iframe{
+    position: relative;
+    left: 0.5%;
+  }
+  hr.style-one{
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #ccc, #ccc);
+  }
+}
+
+
+@media (max-width: 61.9em) {
+  iframe{
+    position: relative;
+    left: 0.5%;
+  }
+  hr.style-one{
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #ccc, #ccc);
+  }
+ }
