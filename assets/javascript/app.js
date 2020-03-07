@@ -70,7 +70,4 @@ $(window).on('load resize', function() {
       });
     });
   });
-
-
-
 // Spotify Player
