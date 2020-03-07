@@ -96,6 +96,14 @@ a {text-decoration: none !important;}
   text-align: center;
 }
 
+/* Small devices (phones, tablets less than 48em) */
+@media (max-width: 47.9em) {
+  .spotify{
+    height: 280px;
+    width: 20;
+  }
+}
+
 /* .bandcamp-music{
   padding-top: 7%;
 } */
