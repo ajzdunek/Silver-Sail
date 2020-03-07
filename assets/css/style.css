@@ -91,75 +91,27 @@ a {text-decoration: none !important;}
   background-color: white;
 }
 
-.spotify {
-  padding-top: 5%;
-  text-align: center;
-}
-
-/* Small devices (phones, tablets less than 48em) */
-@media (max-width: 47.9em) {
-  .spotify{
-    height: 280px;
-    width: 20;
-  }
-}
-
-/* .bandcamp-music{
-  padding-top: 7%;
-} */
-
-/* iframe{
-  position:relative;
-  left: 18.5%;
-} */
-
-/* hr.style-one {
-    border: 0;
-    height: 1px;
-    width: 63.0%;
-    background: #333;
-    background-image: linear-gradient(to right, #ccc, #ccc, #ccc);
-} */
-
-
-
-
-
-
-/* Small devices (phones, tablets less than 48em) */
-@media (max-width: 47.9em) {
-  iframe{
-    position: relative;
-    left: 0.5%;
-  }
-  hr.style-one{
-    border: 0;
-    height: 1px;
-    width: 100%;
-    background: #333;
-    background-image: linear-gradient(to right, #ccc, #ccc, #ccc);
-  }
-}
-
-
-@media (max-width: 61.9em) {
-  iframe{
-    position: relative;
-    left: 0.5%;
-  }
-  hr.style-one{
-    border: 0;
-    height: 1px;
-    width: 100%;
-    background: #333;
-    background-image: linear-gradient(to right, #ccc, #ccc, #ccc);
-  }
- }
-
  #us {
   text-align: center;
   color:#fff;
   font-size: 50px;
   font-weight: 100;
   padding-top: 100px;
+}
+.spotify-embeds {
+  width: 100%;
+  padding: 50px;
+}
+:not(:last-of-type) {
+  margin-bottom: 5px;
+}
+iframe {
+  display: block;
+  transition: opacity 0.125s;
+}
+.js iframe {
+  opacity: 0;
+}
+.js iframe.loaded {
+  opacity: 1;
 }
