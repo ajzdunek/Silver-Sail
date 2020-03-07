@@ -91,23 +91,27 @@ a {text-decoration: none !important;}
   background-color: white;
 }
 
-
-.bandcamp-music{
-  padding-top: 7%;
+.spotify {
+  padding-top: 5%;
+  text-align: center;
 }
 
-iframe{
+/* .bandcamp-music{
+  padding-top: 7%;
+} */
+
+/* iframe{
   position:relative;
   left: 18.5%;
-}
+} */
 
-hr.style-one {
+/* hr.style-one {
     border: 0;
     height: 1px;
     width: 63.0%;
     background: #333;
     background-image: linear-gradient(to right, #ccc, #ccc, #ccc);
-}
+} */
 
 
 
