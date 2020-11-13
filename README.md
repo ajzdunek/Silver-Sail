@@ -12,12 +12,12 @@ Creating a simple static band website. I am no longer the bass player for this p
 
 ## Screenshots
 
-![picture](project-screenshots/index-home.png)
+![picture](assets/project-screenshots/index-home.png)
 Home Page
 
-![picture](project-screenshots/about.png)
+![picture](assets/project-screenshots/about.png)
 About Page
 
-![picture](project-screenshots/music-page.jpg)
+![picture](assets/project-screenshots/music-page.png)
 Music Page
 
