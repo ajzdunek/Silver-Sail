@@ -18,6 +18,6 @@ Home Page
 ![picture](assets/project-screenshots/about.png)
 About Page
 
-![picture](assets/project-screenshots/music-page.jpg)
+![picture](assets/project-screenshots/music-page.png)
 Music Page
 
